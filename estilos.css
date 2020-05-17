@@ -10,6 +10,7 @@ body
 h1,h2,h3,h4,h5,h6
 {
   font-family:'Fjalla One';
+  font-family: 'Source Sans Pro';
   font-weight:bold;
   //font-style: italic;
 }
@@ -26,6 +27,17 @@ h1
 h1 strong
 {
   color: #026fff;
+
+
+}
+h2
+{
+  color:#026fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Source Sans Pro';
+  margin-bottom: 40px;
 }
 .hero
 {
@@ -41,15 +53,45 @@ h1 strong
 .portfolio
 {
   background: #fafafa;
+  padding: 20px;
 }
 .project
 {
   border: 1px solid gray;
   border-radius: 10px;
-  margin: 10px;
+  /* margin: 10px; */
   margin-bottom: 15px;
   padding: 20px;
   background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.project_title
+{
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom:10px;
+}
+.project_course
+{
+  margin:10px 0;
+}
+.project_date
+{
+  margin:10px 0;
+}
+.project_url
+{
+  margin:10px 0;
+}
+.project_description
+{
+  font-size: 20px;
+}
+.project strong
+{
+  font-family:'Fjalla One';
 }
 .project_details
 {
