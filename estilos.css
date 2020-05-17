@@ -65,7 +65,9 @@ h1 strong
   color: white;
   display: flex;
   justify-content: space-between;
-  height: 90px;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
 }
 .menu
 {
@@ -98,4 +100,20 @@ ol,ul
 figure
 {
   margin: 0;
+}
+.footer
+{
+  color: white;
+  background-color: #1b2127;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer img
+{
+  vertical-align: middle;
+}
+.footer a
+{
+  color: white;
 }
