@@ -20,7 +20,8 @@ h1
   letter-spacing: -.2px;
   //text-transform: uppercase;
   color: white;
-  margin: 100px,150px,70px,30px;
+  /*margin: 100px,150px,70px,30px;*/
+  margin: 0;
 }
 h1 strong
 {
@@ -34,6 +35,8 @@ h1 strong
   background-size: 500px 300px;
   background-repeat: no-repeat;
   background-position-x:right;
+  display: flex;
+  align-items: center;
 }
 .portfolio
 {
